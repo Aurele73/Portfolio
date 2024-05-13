@@ -26,8 +26,8 @@ nav ul {
 
 nav ul li {
     display: inline; /* Affichage en ligne pour les éléments de liste */
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 nav ul li:hover {
