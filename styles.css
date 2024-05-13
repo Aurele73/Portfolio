@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la hauteur de la vue */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px; /* Largeur maximale du contenu */
+    padding: 0 20px; /* Marge intérieure pour un meilleur espacement */
+    text-align: justify; /* Justification du texte */
+}
+
+/* Pour centrer verticalement */
+/*body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
