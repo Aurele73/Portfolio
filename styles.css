@@ -1,15 +1,16 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 100% de la hauteur de la vue */
+    height: 100vh; 
     margin: 0;
 }
 
 .container {
     max-width: 800px; /* Largeur maximale du contenu */
-    padding: 0 20px; /* Marge intérieure pour un meilleur espacement */
-    text-align: justify; /* Justification du texte */
+    padding: 0 20px; 
+    text-align: justify; 
 }
 
 /* Pour centrer verticalement */
