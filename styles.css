@@ -7,10 +7,34 @@ body {
     margin: 0;
     
 }
-
+header {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 0; /* Espacement intérieur */
+}
 .container {
     max-width: 800px; /* Largeur maximale du contenu */
     padding: 0 20px; 
     text-align: justify;
 }
 
+nav ul {
+    list-style-type: none; /* Suppression des puces */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Affichage en ligne pour les éléments de liste */
+    margin-right: 20px; /* Espacement entre les éléments */
+}
+
+nav ul li a {
+    color: #fff; /* Couleur du texte des liens */
+    text-decoration: none; /* Suppression du soulignement des liens */
+    font-weight: bold; /* Police en gras */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
